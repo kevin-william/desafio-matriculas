@@ -1,0 +1,12 @@
+﻿
+<div class="container-fluid">
+    <br />
+    <br />
+    <br />
+    <label for="arquivo">Matriculas não verificadas:</label>
+    <input #arquivo type="file" id="arquivo" name="arquivo" accept=".txt" />
+    <br />
+    <input type="button" class="btn btn-dark" value="Processar" (click)="upload(arquivo.files)" />
+    <br />
+    <p [hidden]="!error">Error!</p>
+</div>

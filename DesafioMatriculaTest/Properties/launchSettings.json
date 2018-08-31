@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "DesafioPucTest": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Test",
+        "CAMINHO": "C:\\Temp"
+      }
+    }
+  }
+}
